@@ -1,4 +1,6 @@
-# PythonStudy
+# -*- coding: UTF-8 -*-
+import re
+import jieba
 class ChinneseMatching():# 封装成一个类
     def __init__(self, string, times):
         self.string = string
@@ -19,4 +21,11 @@ class ChinneseMatching():# 封装成一个类
 x = input("The key word is ")#输入关键词
 dt =  ChinneseMatching(x,0)#实例化
 dt.writein()#运行函数
+
+
+
+
+
+
+
 
